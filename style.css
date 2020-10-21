@@ -1,0 +1,20 @@
+#title{
+    color: red;
+    text-align: center;
+    text-shadow: black;
+}
+body{
+    background-color: black;
+}
+.container{
+    align-content: center;
+    background-color: rosybrown;
+    padding: 100px;
+
+}
+.col{
+    align-content: center;
+}
+.shoot{
+    font-size: 100px;
+}

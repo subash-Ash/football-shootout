@@ -1,20 +1,47 @@
-#title{
-    color: red;
-    text-align: center;
-    text-shadow: black;
-}
 body{
-    background-color: black;
+    background-color: yellowgreen;
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+    
 }
-.container{
-    align-content: center;
-    background-color: rosybrown;
-    padding: 100px;
 
+.container{
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;   
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
 .col{
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.shoot{
-    font-size: 100px;
+.logo{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.name{
+    font-size: x-large;
+    font-weight: bold;
+}
+.goals{
+    justify-content: space-evenly;
+    font-size: x-large;
+    width: 250px;
+}
+#title{
+    text-align: center;
+    color:blue;
 }

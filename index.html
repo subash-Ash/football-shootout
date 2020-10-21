@@ -7,46 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title"> Football penalty shootout</h1>
-    <div class="container">
+<div class="container">
+    <h1 id="title">FOOTBALL PENALTY SHOOTOUT</h1>
+    <div class="row">
+
         <div class="col">
-            <div class="team logo">
-                <img class="logo" src="/png img/real-madrid-logo-vector.png">
-            </div>
-            <div class="team-name">
-                <h2>Real Madrid</h2>
-            </div>
-            <div class="row">
-                <span>0</span>
-                <span>0</span>
-                <span>0</span>
-                <span>0</span>
-                <span>0</span>
-            </div>
+            <img class="logo" src="png img/real-madrid-logo-vector.png" height="100px" width="100px">
+            <span class="name" id="team1-name">REAL MADRID</span>
+            <div class="row goals" id="team1-goals">
+                <span class="col">0</span>
+                <span class="col">0</span>
+                <span class="col">0</span>
+                <span class="col">0</span>
+                <span class="col">0</span>
+           </div>
         </div>
         <div class="col">
-            <span>0</span>
-            <span>-</span>
-            <span>0</span>
+            <div class="scoreboard">
+                <span id="team1-totalgoal">0</span>
+                <span>-</span>
+                <span id="team1-totalgoal">0</span>
+            </div>
         </div>
         <div class="col">
-            <div class="team logo">
-                <img class="logo" src="/png img/barcelona-logo-vector-300x300.png">
+            <img class="logo" src="png img/barcelona-logo-vector-300x300.png" height="100px" width="100px">
+            <span class="name" id="team2-name">BARCELONA</span>
+            <div class="row goals" id="team2-goals">
+                <span class="col">0</span>
+                <span class="col">0</span>
+                <span class="col">0</span>
+                <span class="col">0</span>
+                <span class="col">0</span>
+
             </div>
-            <div class="team-name">
-                <h2>Barcelona</h2>
-            </div>
-            <div class="row">
-                <span>0</span>
-                <span>0</span>
-                <span>0</span>
-                <span>0</span>
-                <span>0</span>
         </div>
-        <div>
-            <button name="Shoot" class="shoot" name="Shoot" ></button>
-        </div>
+
     </div>
+    <div class="row">
+        <button id="shoot-button">SHOOT</button>
+
+    </div>
+
+</div>
 </body>
-</html></html>
+
+</html>
 
